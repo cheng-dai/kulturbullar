@@ -4,7 +4,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function Playlist() {
   const playlist = [
-    { song: "太阳在左 月亮在右", singer: "刘成德" },
+    { song: "太阳在左 月亮在右", singer: "阿德" },
     { song: "My Jinji", singer: "落日飞车" },
     { song: "海浪", singer: "Deca Joins" },
     { song: "天空之城", singer: "李志" },
