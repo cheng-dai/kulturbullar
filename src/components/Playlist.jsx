@@ -74,7 +74,7 @@ export default function Playlist() {
       <div className="p-4">
         <a
           className={`${buttonVariants({
-            variant: "outline",
+            variant: "link",
           })} bg-[#1DB954] w-full text-white`}
           href="https://open.spotify.com/playlist/5ubigEtL21vYaoh1akB7BP?si=iQF0H76fRIWMuKc6pdgl6Q"
           target="_blank"
