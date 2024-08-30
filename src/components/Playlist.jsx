@@ -71,7 +71,7 @@ export default function Playlist() {
           ))}
         </ul>
       </ScrollArea>
-      <div className="p-4 bg-card">
+      <div className="p-4">
         <a
           className={`${buttonVariants({
             variant: "outline",
