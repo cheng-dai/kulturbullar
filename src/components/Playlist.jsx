@@ -1,5 +1,5 @@
 import { PiSpotifyLogo } from "react-icons/pi";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function Playlist() {
@@ -72,16 +72,16 @@ export default function Playlist() {
         </ul>
       </ScrollArea>
       <div className="p-4 bg-card">
-        <Button className="w-full bg-[#1DB954]">
+        <a
+          className={`${buttonVariants({
+            variant: "outline",
+          })} bg-[#1DB954] w-full text-white`}
+          href="https://open.spotify.com/playlist/5ubigEtL21vYaoh1akB7BP?si=iQF0H76fRIWMuKc6pdgl6Q"
+          target="_blank"
+        >
           <PiSpotifyLogo className="mr-2 text-2xl" />
-          <a
-            href="https://open.spotify.com/playlist/5ubigEtL21vYaoh1akB7BP?si=iQF0H76fRIWMuKc6pdgl6Q"
-            target="_blank"
-            className="font-semibold"
-          >
-            Spotify 歌单
-          </a>
-        </Button>
+          Spotify 歌单
+        </a>
       </div>
     </div>
   );
